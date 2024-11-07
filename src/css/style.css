@@ -209,3 +209,22 @@ dialog {
 .input-group input:focus {
     outline: 1px solid #6366f1;
 }
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Cor da tabela ao passar de 1000 */
+
+.amarelo{
+    background: #f3f73b;
+}
